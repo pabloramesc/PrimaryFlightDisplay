@@ -9,24 +9,28 @@ A Primary Flight Display (PFD) interface created with Pygame for real-time visua
 - Real-time display and update of aircraft state parameters
 - Smooth animation of flight dynamics
 - Customizable screen dimensions and frame rates
-- Two versions of the interface:
+- Two versions of the interface with different ranges and units:
   - Standard version for commercial aircraft
-  - Alternative version (`little=True` in object instantiation) for typical drone or small aircraft
+  - Alternative version (`little=True` in object instantiation) for drones or small aircrafts
 
-## Installation
+## Getting Started
 
 1. Clone the repository:
     ```bash
     git clone https://github.com/pabloramesc/PrimaryFlightDisplay.git
+    ```
+
+2. Open the project folder:
+    ```bash
     cd PrimaryFlightDisplay
     ```
 
-2. Install the required packages:
+3. Install the required packages:
     ```bash
     pip install numpy pygame
     ```
 
-3. Run an example:
+4. Run an example:
     ```bash
     python example.py
     ```
